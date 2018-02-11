@@ -1,0 +1,20 @@
+Utilisation :
+	./image [OPTION…] [FILE…] [OPTION2…]
+
+Options :
+-h : Affiche une aide du programme
+-i nom_fichier : Definit le fichier d’entree
+-o nom_fichier : Definit le fichier de sortie
+-c n1 n2 n3 : Creer une croix avec epaisseur n3, de hauteur n1 et de largeur n2
+-g : Convertit l’image en niveaux de gris
+-b : Binarise une image
+-z : Zoom *2
+-Z : Dezoom *2
+-r : Realise un recadrage dynamique
+-rc : Renforcement de constrate
+-f : Réalise un flou
+-e : Réalise une erosion
+-d : Realise une dilatation
+-s : Realise une segmentation
+-ch : Applique l'opérateur de Chanda
+ 
